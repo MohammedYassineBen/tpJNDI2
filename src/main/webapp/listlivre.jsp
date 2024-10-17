@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,7 +15,7 @@
     <a href="LivreManager?action=showForm" class="btn btn-primary mb-3">Ajouter un livre</a>
     
     <table class="table table-bordered">
-        <thead class="thead-dark">
+        <thead class="table-dark">
             <tr>
                 <th>ISBN</th>
                 <th>Titre</th>
@@ -40,4 +42,3 @@
     </table>
 </body>
 </html>
->
